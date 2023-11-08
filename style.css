@@ -487,7 +487,8 @@ button{
     gap: 16px;
     flex-direction: column;
     align-items: flex-start;
-    width: 550px;
+    max-width: 550px;
+    width: auto;
     padding-right: 40px;
 }
 
@@ -736,6 +737,16 @@ button{
     .video__box{
         width: 400px;
         height: 225px;
+    }
+
+    .faq__ready{
+        height: auto;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    .faq__ready__text{
+        text-align: center;
     }
 
     .footer__copyright{
